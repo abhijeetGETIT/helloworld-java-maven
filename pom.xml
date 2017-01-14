@@ -28,22 +28,7 @@
       </plugin>
     </plugins>
   </build>
- 
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>1.4</version>
-        <configuration>
-          <stylesheetfile>${basedir}/src/main/javadoc/stylesheet.css</stylesheetfile>
-          <show>public</show>
-        </configuration>
-      </plugin>
-    </plugins>
-  </reporting>
- 
-  <snapshotRepository>
+   <snapshotRepository>
 <id>deployment</id>
 <name>Internal Releases</name>
 <url>http://54.171.140.167:8081/nexus/content/repositories/snapshots/</url>
