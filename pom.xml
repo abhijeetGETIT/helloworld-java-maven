@@ -43,7 +43,7 @@
   <snapshotRepository>
 <id>deployment</id>
 <name>Internal Releases</name>
-<url>http://54.171.140.167:8081/nexus/content/repositories/snapshots/</url>
+<url>http://54.171.181.49:8087/nexus/content/repositories/abhi-snap/</url>
 </snapshotRepository>
 </distributionManagement>
 
